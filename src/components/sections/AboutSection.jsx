@@ -43,12 +43,12 @@ export default function AboutSection() {
                 </div>
               </div>
 
-              <a href="https://www.youtube.com/watch?v=kxPCFljwJws" className="lightbox-image theme-btn btn-style-one">
+              {/* <a href="https://www.youtube.com/watch?v=kxPCFljwJws" className="lightbox-image theme-btn btn-style-one">
                 <span className="txt">
                   <i className="play-icon" />
                   &ensp; Read More
                 </span>
-              </a>
+              </a> */}
             </div>
           </div>
 

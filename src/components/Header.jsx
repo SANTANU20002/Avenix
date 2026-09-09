@@ -141,7 +141,7 @@ export default function Header() {
               </div>
 
               <div className="btn-box">
-                <a href="/contact.html" className="theme-btn btn-style-one">
+                <a href="/contact" className="theme-btn btn-style-one">
                   <span className="txt">Let&rsquo;s Talk</span>
                 </a>
               </div>
