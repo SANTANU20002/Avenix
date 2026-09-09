@@ -1,5 +1,5 @@
 const infoBlocks = [
-  { icon: 'flaticon-pin', label: 'Address', value: '125, Suitland Street, USA' },
+  { icon: 'flaticon-pin', label: 'Address', value: 'Dumdum, Kolkata, West Bengal, 700052' },
   { icon: 'flaticon-phone-call', label: 'Phone', value: '+ 786 875 864 75' },
   { icon: 'flaticon-email-1', label: 'E-Mail', value: 'support@avenex.com' },
 ]

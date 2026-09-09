@@ -8,7 +8,7 @@ export default function ServicesPageSection() {
           <div className="news-block-three col-lg-4 col-md-6 col-sm-12">
             <div className="inner-box">
               <div className="image">
-                <a href="services-detail.html">
+                <a href="services">
                   <img src="images/resource/news-5.jpg" alt="" />
                 </a>
               </div>
@@ -20,16 +20,16 @@ export default function ServicesPageSection() {
                     </div>
                   </div>
                   <h4>
-                    <a href="services-detail.html">Web Design</a>
+                    <a href="services">Web Design</a>
                   </h4>
                   <div className="text">
                     We carry more than just good coding skills. Our experience
                     makes us stand out from other web development.
                   </div>
-                  <a className="read-more" href="services-detail.html">
+                  {/* <a className="read-more" href="services">
                     Read More
                     <i className="fa fa-arrow-right arrow" aria-hidden="true"></i>
-                  </a>
+                  </a> */}
                 </div>
               </div>
             </div>
@@ -45,20 +45,20 @@ export default function ServicesPageSection() {
                     </div>
                   </div>
                   <h4>
-                    <a href="services-detail.html">Web Development</a>
+                    <a href="services">Web Development</a>
                   </h4>
                   <div className="text">
                     We carry more than just good coding skills. Our experience
                     makes us stand out from other web development.
                   </div>
-                  <a className="read-more" href="services-detail.html">
+                  {/* <a className="read-more" href="services">
                     Read More
                     <i className="fa fa-arrow-right arrow" aria-hidden="true"></i>
-                  </a>
+                  </a> */}
                 </div>
               </div>
               <div className="image">
-                <a href="services-detail.html">
+                <a href="services">
                   <img src="images/resource/news-6.jpg" alt="" />
                 </a>
               </div>
@@ -69,7 +69,7 @@ export default function ServicesPageSection() {
           <div className="news-block-three col-lg-4 col-md-6 col-sm-12">
             <div className="inner-box">
               <div className="image">
-                <a href="services-detail.html">
+                <a href="services">
                   <img src="images/resource/news-7.jpg" alt="" />
                 </a>
               </div>
@@ -81,16 +81,16 @@ export default function ServicesPageSection() {
                     </div>
                   </div>
                   <h4>
-                    <a href="services-detail.html">UI/UX Design</a>
+                    <a href="services">UI/UX Design</a>
                   </h4>
                   <div className="text">
                     Build the product you need on time with an experienced team
                     that uses a clear and effective design process.
                   </div>
-                  <a className="read-more" href="services-detail.html">
+                  {/* <a className="read-more" href="services">
                     Read More
                     <i className="fa fa-arrow-right arrow" aria-hidden="true"></i>
-                  </a>
+                  </a> */}
                 </div>
               </div>
             </div>
@@ -100,7 +100,7 @@ export default function ServicesPageSection() {
           <div className="news-block-three col-lg-4 col-md-6 col-sm-12">
             <div className="inner-box">
               <div className="image">
-                <a href="services-detail.html">
+                <a href="services">
                   <img src="images/resource/news-11.jpg" alt="" />
                 </a>
               </div>
@@ -112,16 +112,16 @@ export default function ServicesPageSection() {
                     </div>
                   </div>
                   <h4>
-                    <a href="services-detail.html">Ecommerce Development</a>
+                    <a href="services">Ecommerce Development</a>
                   </h4>
                   <div className="text">
                     Turn to our experts to perform comprehensive, multi-stage
                     testing and auditing of your software.
                   </div>
-                  <a className="read-more" href="services-detail.html">
+                  {/* <a className="read-more" href="services">
                     Read More
                     <i className="fa fa-arrow-right arrow" aria-hidden="true"></i>
-                  </a>
+                  </a> */}
                 </div>
               </div>
             </div>
@@ -138,20 +138,20 @@ export default function ServicesPageSection() {
                     </div>
                   </div>
                   <h4>
-                    <a href="services-detail.html">Wordpress & Shopify Development</a>
+                    <a href="services">Wordpress & Shopify Development</a>
                   </h4>
                   <div className="text">
                     We carry more than just good coding skills. Our experience
                     makes us stand out from other web development.
                   </div>
-                  <a className="read-more" href="services-detail.html">
+                  {/* <a className="read-more" href="services">
                     Read More
                     <i className="fa fa-arrow-right arrow" aria-hidden="true"></i>
-                  </a>
+                  </a> */}
                 </div>
               </div>
               <div className="image">
-                <a href="services-detail.html">
+                <a href="services">
                   <img src="images/resource/news-12.jpg" alt="" />
                 </a>
               </div>

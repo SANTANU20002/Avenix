@@ -22,7 +22,7 @@ export default function TechnologyIndexSection() {
           {items.map((item) => (
             <div className="technology-block" key={item.label}>
               <div className="inner-box">
-                <a href="services-detail.html" className="overlay-link" />
+                <a href="services" className="overlay-link" />
                 <div className="icon-box">
                   <span className={item.icon} />
                 </div>

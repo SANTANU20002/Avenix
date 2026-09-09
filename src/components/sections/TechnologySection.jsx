@@ -34,7 +34,7 @@ export default function TechnologySection() {
                 {technologies.map((icon) => (
                   <div className="technology-block col-lg-2 col-md-2 col-sm-2 col-3" key={icon}>
                     <div className="inner-box">
-                      <a href="services-detail.html" className="overlay-link" />
+                      <a href="services" className="overlay-link" />
                       <div className="icon-box">
                         <img
                           src={`/images/icons/${icon}`}

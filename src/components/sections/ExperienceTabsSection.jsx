@@ -40,7 +40,7 @@ export default function ExperienceTabsSection() {
                     <h4>{tab.title}</h4>
                     <div className="text">{description}</div>
                     <div className="btn-box text-center">
-                      <a href="services-detail.html" className="theme-btn btn-style-three">
+                      <a href="services" className="theme-btn btn-style-three">
                         <span className="txt">Learn More</span>
                       </a>
                     </div>

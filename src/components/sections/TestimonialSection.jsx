@@ -46,10 +46,10 @@ export default function TestimonialSection() {
             </div>
           ))}
         </div>
-
+{/* 
         <div className="lower-text">
           More than 5k customers share their thoughts to us. . . <a href="testimonial.html">Read All Reviews</a>
-        </div>
+        </div> */}
       </div>
     </section>
   )

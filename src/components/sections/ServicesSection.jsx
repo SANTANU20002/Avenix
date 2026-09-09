@@ -45,10 +45,10 @@ export default function ServicesSection() {
                   <img src={service.icon} alt={service.alt} />
                 </div>
                 <h5>
-                  <a href="services-detail.html">{service.title}</a>
+                  <a href="services">{service.title}</a>
                 </h5>
                 <div className="text">{service.text}</div>
-                <a href="services-detail.html" className="arrow ">
+                <a href="services" className="arrow ">
                   <span className="fa fa-angle-right" />
                 </a>
               </div>

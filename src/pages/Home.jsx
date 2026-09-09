@@ -51,12 +51,12 @@ export default function Home() {
       <AboutSection />
       <FeaturedSection />
       <ServicesSection />
+      <TechnologySection />
       <ProcessSection />
       <CallToActionSection />
       <CasesSection />
       <SponsorsSection />
       <TestimonialSection />
-      <TechnologySection />
     </>
   )
 }

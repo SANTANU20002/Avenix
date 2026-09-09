@@ -28,11 +28,11 @@ export default function CasesSection() {
                     </a>
                     <div className="content">
                       <h4>
-                        <a href="projects-detail.html">Social Media App</a>
+                        <a href="projects">Social Media App</a>
                       </h4>
                       <div className="category">Ideas / Technology</div>
                     </div>
-                    <a href="projects-detail.html" className="arrow ">
+                    <a href="projects" className="arrow ">
                       <span className="fa fa-arrow-right" />
                     </a>
                   </div>
@@ -42,13 +42,13 @@ export default function CasesSection() {
           ))}
         </div>
 
-        <div className="section-text">We Have Done More Than 1K Projects in Last 3 Years, With 100% Satisfaction.</div>
+        {/* <div className="section-text">ne More Than 1K Projects in Last 3 Years, With 100% Satisfaction.</div>
 
         <div className="btn-box text-center">
           <a href="#" className="theme-btn btn-style-three">
             <span className="txt">View All</span>
           </a>
-        </div>
+        </div> */}
       </div>
     </section>
   )

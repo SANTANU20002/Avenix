@@ -90,7 +90,7 @@ export default function Footer() {
                     <ul>
                       <li>
                         <span className="icon fa fa-map-marker" />
-                        <strong>Address</strong> 125, Suitland Street, USA
+                        <strong>Address</strong> Dumdum, Kolkata, West Bengal, 700052
                       </li>
                       <li>
                         <span className="icon fa fa-phone" />
