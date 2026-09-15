@@ -37,7 +37,7 @@ export default function HiddenSidebar() {
                     </li>
                     <li>
                       <span className="icon fa fa-phone" />
-                      <a href="tel:+916295751134">+91 70033 08912</a>
+                      <a href="tel:+916295751134">+91 6295751134</a>
                     </li>
                     <li>
                       <span className="icon fa fa-envelope" />
