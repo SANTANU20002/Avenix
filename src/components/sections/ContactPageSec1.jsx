@@ -46,7 +46,7 @@ export default function ContactPageSec1() {
                   <li>
                     <strong>Phone</strong>
                   </li>
-                  <li>+ 91 7003308912</li>
+                  <li>+ 91 6295751134</li>
                 </ul>
               </div>
             </div>

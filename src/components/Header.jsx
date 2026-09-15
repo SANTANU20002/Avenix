@@ -35,7 +35,7 @@ export default function Header() {
                   </a>
                 </li>
                 <li>
-                  <a href="tel:7003308912">
+                  <a href="tel:6295751134">
                     <span className="fa fa-phone" /> +91 70033 08912
                   </a>
                 </li>
