@@ -100,7 +100,7 @@ export default function Footer() {
                       <li>
                         <span className="icon fa fa-envelope" />
                         <strong>E-Mail</strong>
-                        <a href="mailto:support@Avenix.com"> support@Avenix.com</a>
+                        <a href="mailto:support@Laniakea.com"> support@Laniakea.com</a>
                       </li>
                     </ul>
                   </div>
@@ -115,7 +115,7 @@ export default function Footer() {
           <div className="auto-container">
             <div className="row clearfix">
               <div className="column">
-                <div className="copyright">Copyright &copy; 2026 by Avenix. All Rights Reserved.</div>
+                <div className="copyright">Copyright &copy; 2026 by Laniakea. All Rights Reserved.</div>
               </div>
             </div>
           </div>

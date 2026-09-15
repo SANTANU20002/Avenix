@@ -1,6 +1,6 @@
-import { useEffect, useRef, useState } from 'react';
-import { NavLink, Link } from 'react-router-dom'
-import hamburger from "../../public/images/icons/hamburger.png"
+import { useEffect, useRef, useState } from "react";
+import { NavLink, Link } from "react-router-dom";
+import hamburger from "../../public/images/icons/hamburger.png";
 
 export default function Header() {
   const [isSticky, setIsSticky] = useState(false);
@@ -15,8 +15,8 @@ export default function Header() {
       }
     };
 
-    window.addEventListener('scroll', handleScroll, { passive: true });
-    return () => window.removeEventListener('scroll', handleScroll);
+    window.addEventListener("scroll", handleScroll, { passive: true });
+    return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
   return (
@@ -30,7 +30,8 @@ export default function Header() {
               <ul className="info-list">
                 <li>
                   <a href="mailto:creativeflow2023@gmail.com">
-                    <span className="fa fa-envelope" /> creativeflow2023@gmail.com
+                    <span className="fa fa-envelope" />{" "}
+                    creativeflow2023@gmail.com
                   </a>
                 </li>
                 <li>
@@ -58,23 +59,32 @@ export default function Header() {
 
       {/* Header Upper */}
       <div
-        className={`header-upper${isSticky ? ' sticky-header-upper animated-sticky' : ''}`}
+        className={`header-upper${isSticky ? " sticky-header-upper animated-sticky" : ""}`}
         ref={headerUpperRef}
         style={{
-          transition: 'all 0.35s cubic-bezier(.4,0,.2,1)',
+          transition: "all 0.35s cubic-bezier(.4,0,.2,1)",
           zIndex: 100,
-          top: isSticky ? 0 : 'unset',
-          position: isSticky ? 'fixed' : 'relative',
-          width: '100%',
-          boxShadow: isSticky ? '0 6px 16px 0 rgba(40, 40, 40, 0.15)' : 'none',
-          background:  '#fff'
+          top: isSticky ? 0 : "unset",
+          position: isSticky ? "fixed" : "relative",
+          width: "100%",
+          boxShadow: isSticky ? "0 6px 16px 0 rgba(40, 40, 40, 0.15)" : "none",
+          background: "#fff",
         }}
       >
         <div className="auto-container clearfix">
           <div className="pull-left logo-box">
             <div className="logo">
               <Link to="/">
-                <img src="/images/logo-dark.png" alt="" title="" />
+                <img
+                  src="/images/logo-dark.png"
+                  alt="Laniakea"
+                  title="Laniakea"
+                  style={{
+                    width: "120px",
+                    height: "auto",
+                    display: "block",
+                  }}
+                />
               </Link>
             </div>
           </div>
@@ -103,30 +113,49 @@ export default function Header() {
                 </button>
               </div>
 
-              <div className="navbar-collapse collapse clearfix" id="navbarSupportedContent">
+              <div
+                className="navbar-collapse collapse clearfix"
+                id="navbarSupportedContent"
+              >
                 <ul className="navigation clearfix">
                   <li>
-                    <NavLink to="/" end className={({ isActive }) => (isActive ? 'current' : '')}>
+                    <NavLink
+                      to="/"
+                      end
+                      className={({ isActive }) => (isActive ? "current" : "")}
+                    >
                       Home
                     </NavLink>
                   </li>
                   <li>
-                    <NavLink to="/about" className={({ isActive }) => (isActive ? 'current' : '')}>
+                    <NavLink
+                      to="/about"
+                      className={({ isActive }) => (isActive ? "current" : "")}
+                    >
                       About
                     </NavLink>
                   </li>
                   <li>
-                    <NavLink to="/services" className={({ isActive }) => (isActive ? 'current' : '')}>
+                    <NavLink
+                      to="/services"
+                      className={({ isActive }) => (isActive ? "current" : "")}
+                    >
                       Services
                     </NavLink>
                   </li>
                   <li>
-                    <NavLink to="/projects" className={({ isActive }) => (isActive ? 'current' : '')}>
+                    <NavLink
+                      to="/projects"
+                      className={({ isActive }) => (isActive ? "current" : "")}
+                    >
                       Projects
                     </NavLink>
                   </li>
                   <li>
-                    <NavLink to="/contact" className={({ isActive }) => (isActive ? 'current' : '')}>
+                    <NavLink
+                      to="/contact"
+                      className={({ isActive }) => (isActive ? "current" : "")}
+                    >
                       Contact
                     </NavLink>
                   </li>
